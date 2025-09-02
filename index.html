@@ -38,31 +38,30 @@
         .title {
             font-style: italic;
             color: #fff;
-/*             font-size: clamp(36px, 11vw, 65px); */
+            /* font-size: clamp(36px, 11vw, 65px); */
             /* font-size: clamp(24px, 5vw, 50px); */
-            /* шрифт меняется от экрана */
             text-align: center;
             padding-top: 2rem;
-             font-size: 50px;
-            /*padding: 4rem 0px 0px 10rem; */
+            font-size: 50px;
         }
 
         .heart {
-            width: 14rem;
+            width: 50%;
             position: absolute;
-            left: 30%;
+            left: 33%;
+            top: 13%;
         }
 
         .overlay {
-            width: 15rem;
-            height: 36px;
+            width: 60%;
+            max-width: 15rem;
+            height: 34px;
             display: flex;
             justify-content: center;
             align-items: center;
             border: 1px solid #fff;
             border-radius: 30px;
             margin: 39rem auto auto;
-            /* margin: 39rem 0px 0px 14rem; */
             cursor: pointer;
         }
 
@@ -141,17 +140,17 @@
 
         @media (max-width: 768px) {
     .title {
-        font-size: 32px;
-        padding: 1rem;
+        font-size: 55px;
+        padding: 2rem;
     }
 
     .overlay {
-        width: 6rem;
-        height: 30px;
+        width: 11rem;
+        height: 35px;
     }
 
     .heart img {
-        width: 80px;
+        width: 9rem;
     }
 }
 
@@ -184,3 +183,4 @@
 
 
 </html>
+
