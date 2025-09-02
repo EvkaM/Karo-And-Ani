@@ -18,9 +18,9 @@
     .mute-btn {
     position: absolute;
     color: #ffffff;
-/*     width: 100%; */
-/*     align-items: center; */
-        margin-left: 15rem;
+    width: 100%; 
+     align-items: center;
+/*         margin-left: 15rem; */
     border: none;
     font-size: 24px;
     cursor: pointer;
@@ -568,6 +568,7 @@
         text-align: center;
 
     }
+
 
 
 
